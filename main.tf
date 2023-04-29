@@ -7,4 +7,3 @@ resource "helm_release" "nvidia_device_plugin" {
   namespace        = var.nvidia_namespace
   values           = [file("${path.module}/files/values.yaml")]
 }
-
