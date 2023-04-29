@@ -1,0 +1,10 @@
+config:
+  default: nvidia-plugin-config
+  map:
+    nvidia-plugin-config:
+      version: v1
+      sharing:
+        timeSlicing:
+          resources:
+          - name: nvidia.com/gpu
+            replicas: 6
