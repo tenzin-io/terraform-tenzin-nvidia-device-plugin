@@ -6,4 +6,4 @@ config:
         timeSlicing:
           resources:
           - name: nvidia.com/gpu
-            replicas: 6
+            replicas: ${gpu_replicas}
