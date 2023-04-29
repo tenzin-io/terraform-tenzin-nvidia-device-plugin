@@ -1,7 +1,6 @@
 config:
-  default: nvidia-plugin-config
   map:
-    nvidia-plugin-config:
+    config: |-
       version: v1
       sharing:
         timeSlicing:
